@@ -1,13 +1,22 @@
 #include "SuperBoom.h"
 
-void SuperBoom::lancerSort(int& vie, int& mana)
+SuperBoom::SuperBoom(int* vie, int* mana)
+{
+	pointeurVie = vie;
+	pointeurMana = mana;
+	cout << pointeurVie << "     " << pointeurMana << endl;
+}
+
+SuperBoom::~SuperBoom()
+{
+}
+
+void SuperBoom::lancerSort()
 {
 	cout << "Le mage lance SuperBoom !" << endl;
-	int* pointeurMage = &vie;
-	*pointeurMage -= 30;
-	cout << "Le mage c'est fait mal en lancant, il a maintenant " << *pointeurMage << " points de vie !" << endl;
-	pointeurMage = &mana;
-	*pointeurMage -= 40;
-	cout << "Le mage a maintenant " << *pointeurMage << " points de mana !" << endl;
+	*pointeurVie -= 30;
+	cout << "Le mage c'est fait mal en lancant, il a maintenant " << *pointeurVie << " points de vie !" << endl;
+	*pointeurMana -= 40;
+	cout << "Le mage a maintenant " << *pointeurMana << " points de mana !" << endl;
 
 }

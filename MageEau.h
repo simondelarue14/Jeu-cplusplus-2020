@@ -9,9 +9,8 @@ public:
 	MageEau(int niveau);
 
 	virtual ~MageEau();
-
-
-
+	Sort* sort = new Soin(&this->vie, &this->mana);
+	
 
 
 

@@ -3,6 +3,9 @@
 class Soin : public Sort
 {
 public:
-    void lancerSort(int &vie, int &mana);
+    Soin(int* vie, int* mana);
+    virtual ~Soin();
+    void lancerSort();
+
 };
 

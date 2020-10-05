@@ -5,7 +5,11 @@ class Sort
 {
 public:
 	Sort();
+	Sort(int *vie, int *mana);
 	virtual ~Sort();
-	void lancerSort();
+	virtual void lancerSort();
+protected:
+	int *pointeurVie= 0;
+	int *pointeurMana = 0;
 };
 

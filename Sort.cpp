@@ -4,6 +4,14 @@
 Sort::Sort()
 {
 }
+
+Sort::Sort(int *vie, int *mana)
+{
+	pointeurVie = vie;
+	pointeurMana = mana;
+	cout << pointeurVie << "     " << pointeurMana << endl;
+
+}
 Sort::~Sort()
 {
 }

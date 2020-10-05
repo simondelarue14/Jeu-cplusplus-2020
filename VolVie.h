@@ -3,6 +3,8 @@
 class VolVie : public Sort
 {
 public:
-	void lancerSort(int &vie, int& mana);
+	VolVie(int* vie, int* mana);
+	virtual ~VolVie();
+	void lancerSort();
 };
 

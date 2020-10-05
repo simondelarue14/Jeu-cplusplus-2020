@@ -17,11 +17,20 @@ int main() {
 	Mage* mageSansAttribut = new Mage(25, 2);
 	mageSansAttribut->sort->lancerSort();
 	cout << mageSansAttribut->exporter() << endl;
+
+
 	Mage* mageFeuHautNiveau = new MageFeu(130);
-	cout << mageFeuHautNiveau->exporter() << endl;;
+	//mageFeuHautNiveau->sort->lancerSort();
+	cout << mageFeuHautNiveau->exporter() << endl;
+
+
 	Mage* mageEauBasNiveau = new MageEau(2);
+	//mageEauBasNiveau->sort->lancerSort();
 	cout << mageEauBasNiveau->exporter() << endl;
+
+
 	Mage* mageTenebre = new MageTenebre();
+	//mageTenebre->sort->lancerSort();
 	cout << mageTenebre->exporter() << endl;
 
 }

@@ -3,6 +3,8 @@
 class SuperBoom : public Sort
 {
 public:
-    void lancerSort(int& vie, int& mana);
+    SuperBoom(int* vie, int* mana);
+    virtual ~SuperBoom();
+    void lancerSort();
 };
 

@@ -4,6 +4,7 @@ MageEau::MageEau() {
 	this->mana = 200;
 	this->vie = 70;
 	this->typeMage = "eau";
+	sort = new Soin(&this->vie, &this->mana);
 }
 
 MageEau::MageEau(int niveau)
