@@ -6,13 +6,15 @@ Mage::Mage()
 	this->mana = 100;
 	this->vie = 100;
 	this->typeMage = "commun";
+	sort = new Sort(&this->vie, &this->mana);
 }
 
 Mage::Mage(int vie, int mana)
 {
-	this->mana = 100;
-	this->vie = 100;
+	this->mana = mana;
+	this->vie = vie;
 	this->typeMage = "commun";
+	sort = new Sort(&this->vie, &this->mana);
 }
 
 //Destructeur

@@ -6,5 +6,6 @@ public:
     SuperBoom(int* vie, int* mana);
     virtual ~SuperBoom();
     void lancerSort();
+    void quelSort();
 };
 

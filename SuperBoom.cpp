@@ -20,3 +20,8 @@ void SuperBoom::lancerSort()
 	cout << "Le mage a maintenant " << *pointeurMana << " points de mana !" << endl;
 
 }
+
+void SuperBoom::quelSort()
+{
+	cout << "Sort de Super Boom" << endl;
+}

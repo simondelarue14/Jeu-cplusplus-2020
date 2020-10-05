@@ -32,9 +32,10 @@ public:
 
 	string getType() const { return typeMage; }
 	void setType(string typeMage) { this->typeMage = typeMage; }
-	Sort* sort = new Sort(&this->vie, &this->mana);
+	Sort* sort = 0;
 
 protected:
+	
 	string typeMage;
 	int vie; // pour vie et mana, il faudrait rajouter une vieMax et manaMax, car pour l'instant c'est infini !
 	int mana;

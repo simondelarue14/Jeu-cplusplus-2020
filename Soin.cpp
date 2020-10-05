@@ -21,3 +21,8 @@ void Soin::lancerSort()
 	cout << "Le mage a maintenant " << *pointeurMana << " points de mana !" << endl;
 
 }
+
+void Soin::quelSort()
+{
+	cout << "Sort de Soin" << endl;
+}

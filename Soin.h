@@ -6,6 +6,8 @@ public:
     Soin(int* vie, int* mana);
     virtual ~Soin();
     void lancerSort();
+    void quelSort();
+
 
 };
 

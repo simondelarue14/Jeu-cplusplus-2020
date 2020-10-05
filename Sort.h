@@ -8,6 +8,7 @@ public:
 	Sort(int *vie, int *mana);
 	virtual ~Sort();
 	virtual void lancerSort();
+	virtual void quelSort();
 protected:
 	int *pointeurVie= 0;
 	int *pointeurMana = 0;

@@ -20,3 +20,8 @@ void VolVie::lancerSort()
 	cout << "Le mage a maintenant " << *pointeurMana << " points de mana !" << endl;
 
 }
+
+void VolVie::quelSort()
+{
+	cout << "Sort vol de Vie" << endl;
+}

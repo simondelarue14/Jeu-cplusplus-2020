@@ -6,5 +6,6 @@ public:
 	VolVie(int* vie, int* mana);
 	virtual ~VolVie();
 	void lancerSort();
+	void quelSort();
 };
 
