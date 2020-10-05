@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Simon\Documents\Projet_Mages\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(5,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Simon\Documents\Projet_Mages\main.cpp(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Projet_Mages.vcxproj -> C:\Users\Simon\Documents\Projet_Mages\Debug\Projet_Mages.exe
