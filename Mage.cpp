@@ -29,3 +29,14 @@ string Mage::exporter()
 	xml << "<Mage>" << "<type>" << this->typeMage << "</type" << "<vie>" << this->vie << "</vie" << "<mana>" << this->mana << "</mana" << "</Mage>";
 	return xml.str();
 }
+
+
+void Mage::operator++() {
+
+	this->vie += 100;
+	this->mana += 100;
+}
+void Mage::operator++(int) {
+	this->vie += 100;
+	this->mana += 100;
+}

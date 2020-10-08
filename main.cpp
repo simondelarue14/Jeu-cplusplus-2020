@@ -13,7 +13,7 @@ using namespace std;
 
 
 int main() {
-	
+	vector<Mage*> listeDeMages;
 	cout << "Test des Mages" << endl;
 
 
@@ -26,11 +26,13 @@ int main() {
 
 	cout << "Mage de feu haut niveau" << endl;
 	Mage* mageFeuHautNiveau = new MageFeu(130);
+	cout << "Le mage a " << mageFeuHautNiveau->getVie() << " points de vie et " << mageFeuHautNiveau->getMana() << " mana" << endl;
 	cout << "Il essaie de lancer un sort" << endl;
 	mageFeuHautNiveau->sort->quelSort();
 	mageFeuHautNiveau->sort->lancerSort();
+	cout << "Le mage a " << mageFeuHautNiveau->getVie() << " points de vie et " << mageFeuHautNiveau->getMana() << " mana" << endl;
 	cout << mageFeuHautNiveau->exporter() << endl;
-
+	
 	cout << "Mage d'eau bas niveau" << endl;
 	Mage* mageEauBasNiveau = new MageEau(5);
 	cout << "Il essaie de lancer un sort" << endl;
@@ -44,5 +46,10 @@ int main() {
 	mageTenebre->sort->quelSort();
 	mageTenebre->sort->lancerSort();
 	cout << mageTenebre->exporter() << endl;
+
+	cout << "Le mage de Tenebre a " << mageTenebre->getVie() << " points de vie et " << mageTenebre->getMana() << " mana" << endl;
+	cout << "On redonne de la vie au mage de Tenebre" << endl;
+	mageTenebre++;
+	cout << "Le mage de Tenebre a " << mageTenebre->getVie() << " points de vie et " << mageTenebre->getMana() << " mana" << endl;
 
 }

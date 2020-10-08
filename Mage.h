@@ -18,10 +18,14 @@ public:
 
 	virtual string exporter();
 
-	int getVie() const { return vie; }
+	void operator++();
+
+	void operator++(int);
+
+	int getVie() { return this->vie; }
 	void setVie(int vie) { this->vie = vie; }
 
-	int getMana() const { return mana; }
+	int getMana() { return this->mana; }
 	void setMana(int mana) { this->mana = mana; }
 
 	void enleverVie(int ajout) { this->vie -= ajout; }
