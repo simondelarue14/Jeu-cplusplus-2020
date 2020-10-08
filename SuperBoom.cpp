@@ -4,7 +4,7 @@ SuperBoom::SuperBoom(int* vie, int* mana)
 {
 	pointeurVie = vie;
 	pointeurMana = mana;
-	cout << pointeurVie << "     " << pointeurMana << endl;
+	//cout << pointeurVie << "     " << pointeurMana << endl;
 }
 
 SuperBoom::~SuperBoom()

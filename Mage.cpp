@@ -34,9 +34,7 @@ string Mage::exporter()
 void Mage::operator++() {
 
 	this->vie += 100;
-	this->mana += 100;
 }
 void Mage::operator++(int) {
 	this->vie += 100;
-	this->mana += 100;
 }

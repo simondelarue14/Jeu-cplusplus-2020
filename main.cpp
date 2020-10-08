@@ -48,8 +48,8 @@ int main() {
 	cout << mageTenebre->exporter() << endl;
 
 	cout << "Le mage de Tenebre a " << mageTenebre->getVie() << " points de vie et " << mageTenebre->getMana() << " mana" << endl;
-	cout << "On redonne de la vie au mage de Tenebre" << endl;
-	mageTenebre++;
+	cout << "On redonne de la vie et de la mana au mage de Tenebre" << endl;
+	(*mageTenebre)++;
 	cout << "Le mage de Tenebre a " << mageTenebre->getVie() << " points de vie et " << mageTenebre->getMana() << " mana" << endl;
 
 }
