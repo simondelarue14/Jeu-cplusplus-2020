@@ -9,9 +9,10 @@
 #include "VolVie.h";
 #include "SuperBoom.h";
 #include <vector>
+#include <fstream>
 using namespace std;
 bool partie = true;
-
+int numero = 1;
 int main() {
 	vector<Mage*> listeDeMages;
 	cout << "Test des Mages" << endl;
@@ -57,9 +58,12 @@ int main() {
 	cout << "Le mage de Tenebre a " << mageTenebre->getVie() << " points de vie et " << mageTenebre->getMana() << " mana" << endl;*/
 	char choix;
 	int choixType;
-	int numero = 1;
+	//string cheminFichier = "C:\\Users\\Public\\Documents\\Projet_Mages_data.txt";
+	string cheminFichier = "Projet_Mages_data.txt";
+	ofstream fichierSortie;
 	vector<Mage*>::iterator visiteurMages;
 	while (partie) {
+		numero = 1;
 		cout << "Menu : \r Que voulez-vous faire ?" << endl;
 		cout << "Tapez 1 pour lister les caracteristiques de tout les mages" << endl;
 		cout << "Tapez 2 pour faire lancer un sort" << endl;
@@ -67,8 +71,8 @@ int main() {
 
 		cin >> choix;
 		cin.ignore();
-		switch (choix) {
 
+		switch (choix) {
 		case '1':
 			cout << "Affichage des caracteristiques de tout les mages" << endl;
 			for (visiteurMages = listeDeMages.begin(); visiteurMages < listeDeMages.end(); visiteurMages++)
@@ -119,15 +123,22 @@ int main() {
 			break;
 
 		case 'q' : case 'Q':
-			//insérer ici le code pour gérer la sauvegarde des xml dans un fichier
+			
+			fichierSortie.open(cheminFichier, ofstream::out | ofstream::app);
+			for (visiteurMages = listeDeMages.begin(); visiteurMages < listeDeMages.end(); visiteurMages++)
+			{
+				//insérer ici le code pour gérer la sauvegarde des xml dans un fichier
+				
+				fichierSortie << (*visiteurMages)->exporter() << endl;
+
+			}
+			fichierSortie.close();
 			partie = false;
 			break;
 
 		default:
 			cout << "Veuillez entrer un choix valide a partir des choix disponibles dans le menu" << endl;
 			break;
-
-
 
 		}
 

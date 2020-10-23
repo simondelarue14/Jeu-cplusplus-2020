@@ -1,0 +1,4 @@
+<Mage><type>commun</type<vie>25</vie<mana>2</mana</Mage>
+<Mage><type>feu</type<vie>6690</vie<mana>10425</mana</Mage>
+<Mage><type>eau</type<vie>795</vie<mana>360</mana</Mage>
+<Mage><type>tenebre</type<vie>125</vie<mana>235</mana</Mage>
