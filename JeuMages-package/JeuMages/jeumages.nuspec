@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>JeuMages</id>
+    <title>Jeu Mages installer</title>
+    <version>0.1</version>
+    <authors>Simon Delarue</authors>
+    <owners>Simon Delarue</owners>
+    <summary>Jeu avec des mages et des sorts</summary>
+    <description>Jeu avec trois mages et 3 sorts, qui ont chacun un sort attitre. Ils peuvent lancer des attaques, perdre et gagner de la vie et de la mana</description>
+    <tags>jeu,mage,sort,sorts,mages,console</tags>
+  </metadata>
+ <files>
+  <file src="tools\**" target="tools" />
+</files>
+</package>

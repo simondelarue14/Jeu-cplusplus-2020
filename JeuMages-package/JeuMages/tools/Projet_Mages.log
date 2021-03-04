@@ -1,0 +1,41 @@
+﻿  Mage.cpp
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  MageEau.cpp
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  MageFeu.cpp
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  MageTenebre.cpp
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  main.cpp
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\Mage.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(5,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\simon\git\Jeu-cplusplus-2020\main.cpp(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Soin.cpp
+  Sort.cpp
+  SuperBoom.cpp
+  VolVie.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 294 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Projet_Mages.vcxproj -> C:\Users\simon\git\Jeu-cplusplus-2020\Release\Projet_Mages.exe
