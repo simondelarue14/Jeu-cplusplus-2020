@@ -2,7 +2,7 @@
 
 $packageName= 'jeumages'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'jeumages.0.1.Installer.exe'
+$fileLocation = Join-Path $toolsDir 'Jeu_Mages.exe'
 
 $packageArgs = @{
   packageName   = $packageName
